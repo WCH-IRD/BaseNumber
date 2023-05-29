@@ -16,4 +16,4 @@ We comprehensively evaluated the germline variant calling of a GPU-based acceler
 
 The "ouputs" folder of this repo contained the VCFs generated from fastq files of GIAB and GSCG standards. 
 
-The BaseNumber can be tried on AWS US East (N. Virginia) https://us-east-1.console.aws.amazon.com/. Please contact for sharing AMI image.
+BaseNumber is available for trial on the AWS US East (N. Virginia) via https://us-east-1.console.aws.amazon.com/. To obtain the AMI image, please contact bufengxiao@wchscu.cn.
