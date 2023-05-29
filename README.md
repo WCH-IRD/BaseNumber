@@ -4,10 +4,10 @@ We comprehensively evaluated the germline variant calling of a GPU-based acceler
 ![Evaluation workflow](https://github.com/WCH-IRD/BaseNumber/blob/main/image/fig1.jpg)
 Figure 1. The workflow of evaluation study
 
-![Accuracy](https://github.com/WCH-IRD/BaseNumber/blob/main/image/fig2-1.jpg)
+![Accuracy](https://github.com/WCH-IRD/BaseNumber/blob/main/image/fig2-1.png)
 Figure 2. The precision and recall of BaseNumber calling results compared with GIAB and GSCS standards
 
-![Efficiency and consistency](https://github.com/WCH-IRD/BaseNumber/blob/main/image/fig2-1.jpg)
+![Efficiency and consistency](https://github.com/WCH-IRD/BaseNumber/blob/main/image/fig2-1.png)
 Figure 2. The comparison of speed and consistency of BaseNumber and GATK
 
 The "ouputs" folder of this repo contained the VCFs generated from fastq files of GIAB and GSCG standards. 
