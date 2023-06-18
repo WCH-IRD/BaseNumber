@@ -17,7 +17,7 @@ We comprehensively evaluated the germline variant calling of a GPU-based acceler
 
 ## Data availability
 The GIAB and GSCG reference data utilized in this study are available through the following URLs, including 
-GIAB standard fastq files: https://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/giab/data/ 
+GIAB standard fastq files: https://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/giab/data/
 GIAB standard VCF files (v3.3.2): https://
 GSCG standard Fastq files: http://chinese-quartet.org/#/data/download/quartet-genomics
 GSCG standard VCF files (v1.0): http://chinese-quartet.org/#/data/download/quartet-genomics
