@@ -42,7 +42,7 @@ Choose "Images"/"AMIs" on the left navigation panel, select "germline" image on 
 
 To launch the instance, the "p3.8xlarge" type is recommanded. 
 
-Following screenshots show the configuration of the instance details, including the number of instances you want to launch, networking options, and storage options. Ensure that the "io2" volume type is selected for the desired storage. 
+Following screenshots show the configuration of the instance details, including the number of instances you want to launch, networking options, and storage options. Ensure that the "io2" volume type is selected for the desired storage (64000 iops and >500GB are recommanded). 
 
 If you are encountering any limitations, you may need to request an increase in those limits from AWS support. These limitations can vary depending on your account type and usage. Configure any additional settings as per your requirements, such as security groups, IAM roles, or user data. Review the instance details and click "Launch" to start the instance. You will be prompted to select an existing key pair or create a new one for secure access to your instance. Choose the appropriate option and click "Launch Instances."
 ![config1](https://github.com/WCH-IRD/BaseNumber/blob/main/image/config1.png)
@@ -50,3 +50,30 @@ If you are encountering any limitations, you may need to request an increase in 
 ![config3](https://github.com/WCH-IRD/BaseNumber/blob/main/image/config3.png)
 ![config4](https://github.com/WCH-IRD/BaseNumber/blob/main/image/config4.png)
 ![config5](https://github.com/WCH-IRD/BaseNumber/blob/main/image/config5.png)
+
+Next, connect to the instance.
+![connect](https://github.com/WCH-IRD/BaseNumber/blob/main/image/connect.png)
+
+The data for trial is in the ~/data/ folder. 
+For alignment, the script is
+```
+cd  /data
+./sla -R '@RG\tID:test\tSM:test' \
+-B ./bam.split/ \
+./hs37d5/hs37d5.fa \
+./SRR8454589_1.fastq.gz \
+./SRR8454589_2.fastq.gz 
+```
+![align](https://github.com/WCH-IRD/BaseNumber/blob/main/image/align.png)
+
+For variant calling, the script is
+```
+./slc -P ./bam.split \
+-R ./hs37d5/hs37d5.fa \
+--keep-split \
+-o ./tmp.vcf \
+-b ./tmp.bam
+```
+![calling](https://github.com/WCH-IRD/BaseNumber/blob/main/image/calling.png)
+![results](https://github.com/WCH-IRD/BaseNumber/blob/main/image/results.png)
+More details can be found in the "help" of "sla" and "slc".
