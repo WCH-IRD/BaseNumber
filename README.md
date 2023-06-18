@@ -14,7 +14,7 @@ We comprehensively evaluated the germline variant calling of a GPU-based acceler
 ![Efficiency and consistency](https://github.com/WCH-IRD/BaseNumber/blob/main/image/fig2-1.png)
 <p align="center"> Figure 3. The comparison of speed and consistency of BaseNumber and GATK</p>
 
+The VCF files of GIAB and GSCG samples called in this study are available through the 
 
-The "ouputs" folder of this repo contained the VCFs generated from fastq files of GIAB and GSCG standards. 
-
+## Availability of BaseNumber Demo
 BaseNumber is available for trial on the AWS US East (N. Virginia) via https://us-east-1.console.aws.amazon.com/. To obtain the AMI image, please contact bufengxiao@wchscu.cn.
