@@ -30,3 +30,23 @@ The VCF files of GIAB and GSCG samples called in this study are available throug
 
 ## Availability of BaseNumber Demo
 BaseNumber is available for trial on the AWS US East (N. Virginia) via https://us-east-1.console.aws.amazon.com/. To obtain the AMI image, please contact bufengxiao@wchscu.cn.
+
+To use the BaseNumber image, goes to the "EC2" Service
+![EC2](https://github.com/WCH-IRD/BaseNumber/blob/main/image/EC2.png)
+
+Choose "Images"/"AMI Catalog" on the left navigation panel, select "My AMIs" on the main panel. A AMI image named "germline" should be listed.
+![AMI_Catalog](https://github.com/WCH-IRD/BaseNumber/blob/main/image/AMI_Catalog.png)
+
+Choose "Images"/"AMIs" on the left navigation panel, select "germline" image on the top, launch the instance from AMI.
+![launch_AMI](https://github.com/WCH-IRD/BaseNumber/blob/main/image/launch_AMI.png)
+
+To launch the instance, the "p3.8xlarge" type is recommanded. 
+
+Following screenshots show the configuration of the instance details, including the number of instances you want to launch, networking options, and storage options. Ensure that the "io2" volume type is selected for the desired storage. 
+
+If you are encountering any limitations, you may need to request an increase in those limits from AWS support. These limitations can vary depending on your account type and usage. Configure any additional settings as per your requirements, such as security groups, IAM roles, or user data. Review the instance details and click "Launch" to start the instance. You will be prompted to select an existing key pair or create a new one for secure access to your instance. Choose the appropriate option and click "Launch Instances."
+![config1](https://github.com/WCH-IRD/BaseNumber/blob/main/image/config1.png)
+![config2](https://github.com/WCH-IRD/BaseNumber/blob/main/image/config2.png)
+![config3](https://github.com/WCH-IRD/BaseNumber/blob/main/image/config3.png)
+![config4](https://github.com/WCH-IRD/BaseNumber/blob/main/image/config4.png)
+![config5](https://github.com/WCH-IRD/BaseNumber/blob/main/image/config5.png)
