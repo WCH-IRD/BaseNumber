@@ -20,7 +20,7 @@ The GIAB and GSCG reference data utilized in this study are available through th
 
 GIAB standard fastq files: https://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/giab/data/
 
-GIAB standard VCF files (v3.3.2): https://
+GIAB standard VCF files (v3.3.2): https://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/giab/release/NA12878_HG001/NISTv3.3.2/GRCh38/
 
 GSCG standard Fastq files: http://chinese-quartet.org/#/data/download/quartet-genomics
 
