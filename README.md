@@ -26,7 +26,7 @@ GSCG standard Fastq files: http://chinese-quartet.org/#/data/download/quartet-ge
 
 GSCG standard VCF files (v1.0): http://chinese-quartet.org/#/data/download/quartet-genomics
 
-The VCF files of GIAB and GSCG samples called in this study are available through the following URL:
+The VCF files of GIAB and GSCG samples called in this study are available through the following URL: https://vcf-for-benchmark-paper.tos-cn-beijing.volces.com/BaseNumber_VCFs.zip
 
 ## Availability of BaseNumber Demo
 BaseNumber is available for trial on the AWS US East (N. Virginia) via https://us-east-1.console.aws.amazon.com/. To obtain the AMI image, please contact bufengxiao@wchscu.cn.
